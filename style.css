@@ -1,0 +1,120 @@
+  @import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Nunito:wght@500&family=Poppins:wght@300;400;600;700&family=Raleway:wght@300;500&family=Ubuntu&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  body {
+      font-family: 'Nunito', sans-serif;
+      background-color:beige;
+     
+  }
+
+  nav {
+      font-weight: 900;
+      display: flex;
+      font-size: 1.2rem;
+      padding: 23px;
+  }
+
+  nav ul {
+      display: flex;
+  }
+
+  nav ul li {
+      list-style: none;
+      margin: 0 23px;
+  }
+
+  nav li a {
+      text-decoration: none;
+      color: black;
+      transition: all;
+      transition-duration: 300ms;
+  }
+
+  nav li a:hover {
+      text-decoration: none;
+      color:rgb(92, 12, 92);
+  }
+
+  div.logo {
+      display: flex;
+      font-size: 1.2rem;
+      color:black;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+  }
+
+  .container {
+      min-height: 80vh;
+      border-radius: 15px;
+      background-color:wheat;
+      max-width: 70vw;
+      margin: auto;
+  }
+
+  .container h1,
+  h2 {
+      margin: 20px;
+      padding-top: 3%;
+      text-align: center;
+  }
+
+  .container form {
+      display: flex;
+      flex-direction: column;
+      padding-top: 5%;
+      align-items: center;
+  }
+
+  .container form label {
+      font-size: 25px;
+  }
+
+  .container form input[type='number'],
+  select,
+  label {
+      font-size: 20px;
+      font-weight: 600;
+      width: 23vw;
+      margin-bottom: 23px;
+  }
+
+  .btn {
+      width: 120px;
+      padding: 7px;
+      font-size: 20px;
+      font-weight: bold;
+      background-color:beige;
+      color:black;
+      border-radius: 8px;
+      cursor: pointer;
+      transition-duration: 300ms;
+  }
+
+  .btn:hover {
+      background: transparent;
+  }
+
+  .output{
+    display: none;
+  }
+
+  .output table {
+      width: 50vw;
+      margin-left: 20%;
+      margin-right: 20%;
+      border: 2px solid black;
+      font-size: 20px;
+  }
+
+  footer {
+      text-align: center;
+      color: black;
+      font-weight: 600;
+      font-size: 1.1rem;
+      padding-top: 1%;
+  }
